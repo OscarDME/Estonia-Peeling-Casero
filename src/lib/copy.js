@@ -1,328 +1,354 @@
 // src/lib/copy.js
-// TODO el contenido visible de la landing vive aquí. Los componentes solo leen.
-// Idioma: Português brasileiro (pt-BR).
+// Kogu maandumislehe tekstisisu on siin. Komponendid ainult loevad seda.
+// Keel: Eesti (et-EE) - Transkreatsioon otseturunduse stiilis, kohandatud Eesti turule.
 
 export const copy = {
+  // Reklaamide ja lisapakkumiste tekstid
+  campaign: {
+    adText: {
+      headline: "Ava saladus 🔓",
+      body: "💫 Kodune näokoorimine professionaalsete tulemustega!\nKas tead seda säravat ja sametpehmet nahka, mis on tavaliselt vaid ilukliiniku protseduuride tulemus? 😍 Nüüd saad selle saavutada kodus, kulutades vaid sente!\nSee kodune koorimishooldus:\n✨ Ahendab poore\n✨ Kontrollib rasueritust\n✨ Helendab pigmendilaike\n✨ Stimuleerib kollageeni tootmist\n✨ Muudab naha nooruslikuks ja säravaks\n👉 Klõpsa alloleval nupul „Uuri lähemalt“ ja avasta, kuidas muuta oma nahk veatuks ilma tervet varandust kulutamata."
+    },
+    upsells: [
+      {
+        title: "👁️ Tumedate silmaaluste kustutaja: Salanipp kottide ja kortsude vastu",
+        description: "Suurepärane valik! Sul on juba näonaha uuendamiseks vajalik koorija olemas, aga... silmaümbruse nahk on selle jaoks liiga õhuke ja õrn. Täiuslikust näonahast pole kasu, kui tumedad silmaalused lisavad sulle 10 aastat. Lisa oma tellimusele see salajane juhend 15 lifting-efektiga mikroretseptiga, mis alandavad turseid, kaotavad tumedad laigud ja siluvad „varesejalgu“ vaid 5 minutiga. Noorenda oma ilmet silmapilkselt, ilma igasuguste süstideta!"
+      },
+      {
+        title: "💆‍♀️ „Lifting“ efekt: 5-minutiline pinguldav automassaaž",
+        description: "Sinu nahk saab uskumatu salongiväärilise sära, aga... koorimine parandab vaid naha tekstuuri, see ei pingulda lõtvunud lihaseid ega kaota topeltlõuga. Ära lase gravitatsioonil oma välimust rikkuda. Lisa tellimusele see visuaalne juhend Aasia lümfidrenaaži ja näomassaaži saladustega, mis pinguldavad lihaseid ja vormivad lõuajoont. Saavuta visuaalne näoringtõstuse efekt, ilma et peaksid operatsioonisaali astuma!"
+      },
+      {
+        title: "💧 Looduslik „Botox“: Seerum sügavate kortsude täitmiseks",
+        description: "Sul on juba olemas valem pooride ahendamiseks ja pindmiste laikude eemaldamiseks, aga... mis saab nendest sügavatest miimikakortsudest otsaesisel ja suu ümber? Koorija uuendab, kuid ei täida. Lisa see salajane retsept ülikontsentreeritud koduse seerumi valmistamiseks, mis jäljendab hüaluroonhappe täitesüstide efekti. Täida kortsud seestpoolt väljapoole ja lukusta niiskus oma uude nahka!"
+      },
+      {
+        title: "✋ Ajamasin: Salajane protokoll kaelale ja kätele",
+        description: "Koorija muudab su näo, aga... 95% naistest teeb ühe saatusliku vea: nad unustavad oma kaela ja käed – kaks piirkonda, mis reedavad koheselt sinu tegeliku vanuse. Ära lase tekkida olukorral, kus sul on 30-aastase nägu ja 50-aastase käed. Lisa oma tellimusele see spetsiaalselt välja töötatud valem, mis tihendab, pinguldab ja eemaldab pigmendilaigud dekoltee ja käeselgade õrnalt nahalt. Noorenda oma üldist välimust!"
+      }
+    ]
+  },
+
   hero: {
-    banner: "EXCLUSIVO PARA MULHERES QUE QUEREM REATIVAR O COLÁGENO DA PELE",
-    timerLabels: { days: "Dias", hours: "Horas", minutes: "Minutos", seconds: "Segundos" },
-    timerNote: "Oferta termina em",
-    eyebrow: "PEELING CASEIRO ANTI-IDADE",
+    banner: "EKSKLUSIIVSELT NAISTELE, KES SOOVIVAD TAASTADA OMA NAHA KOLLAGEENI",
+    timerLabels: { days: "Päeva", hours: "Tundi", minutes: "Minutit", seconds: "Sekundit" },
+    timerNote: "Pakkumine aegub",
+    eyebrow: "KODUNE VANANEMISVASTANE KOORIMINE",
     headline: {
-      line1: "Peeling caseiro com",
-      highlight: "resultado profissional",
-      line2: "sem sair de casa.",
+      line1: "Kodune koorimishooldus",
+      highlight: "professionaalsete tulemustega",
+      line2: "ilma kodust lahkumata.",
     },
     subheadline:
-      "Economize tempo e dinheiro com uma receita testada e segura. Pele renovada, firme e iluminada em até 28 dias — desde a primeira aplicação.",
+      "Säästa aega ja raha järeleproovitud ja täiesti ohutu retseptiga. Uuenenud, pingul ja särav nahk kuni 28 päevaga — juba esimesest kasutuskorrast.",
     bullets: [
-      "Aplicação simples em menos de 20 minutos",
-      "Ingredientes acessíveis e seguros",
-      "Resultados visíveis já na primeira semana",
+      "Võtab aega vähem kui 20 minutit ja on lihtne peale kanda",
+      "Sisaldab soodsaid ja täiesti ohutuid koostisosi",
+      "Garanteerib nähtavad tulemused juba esimesel nädalal",
     ],
-    cta: "SIM, QUERO REATIVAR MEU COLÁGENO",
-    secondaryNote: "Garantia incondicional de 7 dias",
-    imageAlt: "Mockup do curso Peeling Caseiro Anti-Idade",
+    cta: "JAH, SOOVIN TAASTADA OMA NAHA KOLLAGEENI",
+    secondaryNote: "14-päevane tingimusteta garantii",
+    imageAlt: "Koduse vananemisvastase koorimiskursuse näidis",
   },
 
   story: {
-    eyebrow: "O QUE NÃO TE CONTAM",
-    headline: "As dermatologistas não querem que você descubra isso.",
+    eyebrow: "MIDA SINU EEST VARJATAKSE",
+    headline: "Dermatoloogid ei taha, et sa seda saladust teaksid.",
     paragraphs: [
-      "O ativo que clínicas de estética cobram caro para aplicar é o mesmo princípio que você pode preparar em casa, em poucos minutos, gastando uma fração do valor.",
-      "Pertence à família do ácido salicílico — comprovadamente eficaz na renovação celular, estímulo ao colágeno e atenuação de rugas, manchas e flacidez.",
-      "Por isso essa fórmula não circula em vídeos do YouTube nem em redes sociais. O mercado prefere que você continue pagando consultas caras todo mês.",
+      "Aktiivaine, mille eest ilukliinikud kasseerivad sadu eurosid, on seesama, mille saad kodus paari minutiga ise kokku segada, kulutades selleks vaid sente.",
+      "See kuulub salitsüülhapete perekonda — tõestatult efektiivne rakkude uuendamisel, kollageeni stimuleerimisel ning kortsude, pigmendilaikude ja naha lõtvuse vähendamisel.",
+      "Just seetõttu ei ringle see valem YouTube'is ega sotsiaalmeedias. Tööstus eelistab, et jätkaksid iga kuu kallite konsultatsioonide eest maksmist."
     ],
     highlights: [
-      { value: "R$ 15", label: "por aplicação em casa" },
-      { value: "28 dias", label: "para ver a transformação completa" },
-      { value: "1ª sessão", label: "para sentir a pele mais lisa" },
+      { value: "Alla 1 €", label: "ühe koduse protseduuri hind" },
+      { value: "28 päeva", label: "täieliku muutumiseni" },
+      { value: "1. kord", label: "et tunda nahka siledamana" },
     ],
-    cta: "QUERO O MEU PEELING AGORA",
-    industryImageAlt: "O segredo da indústria farmacêutica revelado",
-    scienceImageAlt: "Comprovação científica do peeling com ácido salicílico",
+    cta: "SOOVIN OMA KOORIJAT KOHE",
+    industryImageAlt: "Kosmeetikatööstuse saladus on paljastatud",
+    scienceImageAlt: "Salitsüülhappega koorimise teaduslikult tõestatud mõju",
   },
 
   benefits: {
-    eyebrow: "O QUE SUA PELE VAI SENTIR",
-    headline: "Resultados que aparecem no espelho.",
+    eyebrow: "MIDA SU NAHK TUNNEB",
+    headline: "Tulemused, mida näed peeglist koheselt.",
     subheadline:
-      "Uma rotina simples, pensada para mulheres que querem aparência saudável sem depender de procedimentos caros.",
+      "Lihtne rutiin, mis on loodud naistele, kes soovivad tervet ja ilusat välimust, ilma kallitest protseduuridest sõltumata.",
     items: [
       {
-        title: "Rugas e linhas mais suaves",
-        desc: "Estímulo natural ao colágeno para amenizar marcas finas e profundas.",
+        title: "Silub nii peeneid kui sügavaid kortse",
+        desc: "Stimuleerib loomulikku kollageeni tootmist, et täita naha ebatasasusi.",
       },
       {
-        title: "Pele mais firme e radiante",
-        desc: "Aspecto rejuvenescido com brilho saudável e textura aveludada.",
+        title: "Pinguldab nahka ja taastab sära",
+        desc: "Noorendab üldist ilmet, jättes naha sametpehmeks ja säravaks.",
       },
       {
-        title: "Manchas mais claras",
-        desc: "Renovação celular que ajuda a uniformizar o tom da pele.",
+        title: "Helendab pigmendilaike",
+        desc: "Kiirendab rakkude uuenemist, et ühtlustada sinu näonaha jumet.",
       },
       {
-        title: "Poros visivelmente reduzidos",
-        desc: "Pele mais lisa ao toque, com aparência refinada.",
+        title: "Ahendab märgatavalt laienenud poore",
+        desc: "Muudab naha puudutamisel täiuslikult siledaks ja puhtaks.",
       },
     ],
   },
 
   features: {
-    eyebrow: "O QUE VOCÊ VAI APRENDER",
-    headline: "6 módulos para transformar sua pele em 28 dias.",
-    subheadline: "Conteúdo direto ao ponto, sem enrolação. Você assiste, aplica e vê resultado.",
+    eyebrow: "MIDA SA ÕPID",
+    headline: "6 moodulit, mis muudavad su nahka 28 päevaga.",
+    subheadline: "Konkreetne ja praktiline teave, ilma tühja jututa. Vaatad, rakendad ja näed tulemust.",
     items: [
       {
         n: "01",
-        title: "O Segredo das Pessoas que Não Envelhecem",
-        desc: "A mentalidade, os hábitos e a rotina das mulheres que envelhecem com qualidade.",
+        title: "Nende inimeste saladus, kes ei vanane",
+        desc: "Kaunilt ja väärikalt vananevate naiste mõtteviis, harjumused ja rutiin.",
       },
       {
         n: "02",
-        title: "Peeling Profissional e Barato",
-        desc: "A fórmula secreta com 3 ingredientes acessíveis: aspirina, vinagre e óleo.",
+        title: "Professionaalne koorimine sentide eest",
+        desc: "Salajane valem kolme kättesaadava koostisosaga: aspiriin, äädikas ja looduslik õli.",
       },
       {
         n: "03",
-        title: "Shot Anti-Idade para Estimular Colágeno",
-        desc: "Receita detox para apoiar o estímulo natural do colágeno por dentro.",
+        title: "Vananemisvastane šott tugeva kollageenilaengu jaoks",
+        desc: "Detoks-retsept, mis stimuleerib kollageeni tootmist seestpoolt väljapoole.",
       },
       {
         n: "04",
-        title: "Protocolo Sangue de Dragão",
-        desc: "Como usar o ativo amazônico para acelerar a recuperação pós-peeling.",
+        title: "„Draakonivere“ protokoll",
+        desc: "Kuidas kasutada seda võimsat vaiku kiireks taastumiseks pärast koorimist.",
       },
       {
         n: "05",
-        title: "Técnicas de Aplicação Profissional",
-        desc: "Passo a passo de como preparar e aplicar o peeling com gaze esterilizada.",
+        title: "Professionaalsed pealekandmistehnikad",
+        desc: "Samm-sammult: kuidas valmistada ja kanda koorijat peale steriilse marliga.",
       },
       {
         n: "06",
-        title: "Resultados Visíveis e Segurança",
-        desc: "Cronograma de aplicação: pele mais lisa em 7 dias, transformação em 28.",
+        title: "Nähtavad tulemused ja ohutus",
+        desc: "Pealekandmise graafik: siledam nahk 7 päevaga, täielik muutus 28 päevaga.",
       },
     ],
   },
 
   targetAudience: {
-    eyebrow: "ESSE CURSO É PRA VOCÊ SE…",
-    headline: "Você se reconhece em alguma destas situações?",
+    eyebrow: "SEE KURSUS ON SULLE, KUI...",
+    headline: "Kas tunned end ära mõnes neist olukordadest?",
     items: [
       {
-        title: "Sua pele está opaca, áspera e sem brilho",
-        desc: "Mesmo com cremes caros, a pele continua sem vida e cansada.",
-        imageAlt: "Mulher com pele opaca e sem viço",
+        title: "Sinu nahk on tuhm, kare ja säratu",
+        desc: "Isegi kallite kreemidega näeb su nägu endiselt väsinud ja elutu välja.",
+        imageAlt: "Naine tuhmi ja väsinud nahaga",
       },
       {
-        title: "As rugas estão ficando mais profundas",
-        desc: "As marcas de expressão começaram a se acentuar e te incomodam.",
-        imageAlt: "Pele com rugas profundas",
+        title: "Sinu kortsud muutuvad üha sügavamaks",
+        desc: "Miimikajooned hakkavad süvenema ja see tekitab sinus ebamugavust.",
+        imageAlt: "Sügavate kortsudega nahk",
       },
       {
-        title: "Depois dos 35 a pele começou a cair",
-        desc: "A firmeza foi embora e a flacidez começou a aparecer.",
-        imageAlt: "Pele com flacidez",
+        title: "Pärast 35. eluaastat on näokontuur lõtvunud",
+        desc: "Pinguldus on kadunud ja gravitatsioon hakkab oma tööd tegema.",
+        imageAlt: "Lõtvunud näonahk",
       },
       {
-        title: "Os cosméticos caros não estão funcionando",
-        desc: "Você já gastou centenas em produtos que prometem e não entregam.",
-        imageAlt: "Produtos cosméticos que não funcionam",
+        title: "Kallis kosmeetika lihtsalt ei toimi",
+        desc: "Oled juba raisanud sadu eurosid toodetele, mis lubavad imesid, aga ei tee midagi.",
+        imageAlt: "Kallid, kuid ebaefektiivsed kosmeetikatooted",
       },
     ],
   },
 
   howItWorks: {
-    eyebrow: "PASSO A PASSO",
-    headline: "Aplicação simples, segura e em casa.",
+    eyebrow: "SAMM-SAMMULT",
+    headline: "Lihtne ja ohutu kodune kasutamine.",
     subheadline:
-      "Você precisa apenas de 20 minutos e três ingredientes que cabem na sua bolsa.",
+      "Vajad vaid 20 minutit ja kolme koostisosa, mis on sul tõenäoliselt juba köögikapis olemas.",
     steps: [
       {
         n: "01",
-        title: "Prepare a fórmula",
-        desc: "Misture os ingredientes nas proporções ensinadas no vídeo. Tudo é caseiro e acessível.",
+        title: "Valmista segu",
+        desc: "Sega koostisosad täpselt sellistes vahekordades nagu videos näidatud. Kõik on kodune ja kättesaadav.",
       },
       {
         n: "02",
-        title: "Aplique com a gaze esterilizada",
-        desc: "Movimentos suaves no rosto seguindo a técnica profissional. Sem dor, sem queimação.",
+        title: "Kanna peale steriilse marliga",
+        desc: "Tee näol õrnu liigutusi, järgides professionaalset tehnikat. Ilma valu ja kipituseta.",
       },
       {
         n: "03",
-        title: "Resultado em dias",
-        desc: "Pele mais lisa em 7 dias. Em 28 dias, a transformação completa: viço, firmeza e luminosidade.",
+        title: "Naudi tulemusi",
+        desc: "Siledam nahk vaid 7 päeva pärast. Ja 28 päeva pärast – täielik muutus: värskus, pinguldus ja sära.",
       },
     ],
-    leftImageAlt: "Mulher aplicando o peeling caseiro com gaze",
-    rightImageAlt: "Resultado antes e depois do peeling caseiro",
+    leftImageAlt: "Naine kannab marliga peale kodust koorijat",
+    rightImageAlt: "Tulemus enne ja pärast kodust koorimist",
   },
 
   carouselSection: {
-    eyebrow: "RESULTADOS REAIS",
-    headline: "Mulheres reais. Transformações reais.",
-    subheadline: "Veja o antes e depois de quem aplicou o protocolo em casa.",
-    cta: "QUERO ESSES RESULTADOS",
+    eyebrow: "TÕELISED TULEMUSED",
+    headline: "Päris naised. Päris muutused.",
+    subheadline: "Vaata enne-ja-pärast pilte naistest, kes rakendasid seda protokolli kodus.",
+    cta: "SOOVIN SAMASUGUSEID TULEMUSI",
   },
 
   bonuses: {
-    badge: "TUDO INCLUSO",
-    headline: "O que você recebe ao garantir hoje",
-    subheadline: "Acesso vitalício ao curso completo + bônus exclusivos.",
+    badge: "KÕIK HINNAS",
+    headline: "Mida saad, kui tellid täna",
+    subheadline: "Eluaegne juurdepääs kogu kursusele + eksklusiivsed boonused.",
     items: [
       {
-        title: "Acesso à plataforma ES Vídeos",
-        desc: "A maior plataforma de estética e saúde do Brasil — incluído na compra.",
+        title: "Juurdepääs ES Video platvormile",
+        desc: "Suurim tervise- ja esteetikaplatvorm – hinna sees.",
       },
       {
-        title: "Vídeo da Receita Secreta do Peeling",
-        desc: "A fórmula completa, com proporções exatas e demonstração prática.",
+        title: "Video koorija salajase retseptiga",
+        desc: "Täielik valem täpsete proportsioonide ja praktilise demonstratsiooniga.",
       },
       {
-        title: "Shot Anti-Idade para Colágeno",
-        desc: "Receita do drinque detox que potencializa o resultado por dentro.",
+        title: "Vananemisvastane kollageenišott",
+        desc: "Detoks-joogi retsept, mis tugevdab efekti seestpoolt väljapoole.",
       },
       {
-        title: "Protocolo Sangue de Dragão",
-        desc: "Vídeo passo a passo de recuperação pós-peeling com o ativo amazônico.",
+        title: "„Draakonivere“ protokoll",
+        desc: "Samm-sammuline video taastumiseks pärast koorimist, kasutades võimsat vaiku.",
       },
       {
-        title: "Guia Passo a Passo em PDF",
-        desc: "Material em PDF para imprimir e seguir cada aplicação com segurança.",
+        title: "Samm-sammuline juhend (PDF)",
+        desc: "Mugav prinditav PDF-materjal, et järgida ohutult iga pealekandmist.",
       },
     ],
   },
 
   testimonials: {
-    eyebrow: "DEPOIMENTOS",
-    headline: "Você não precisa acreditar em mim. Acredite nessas mulheres.",
+    eyebrow: "TAGASISIDE",
+    headline: "Sa ei pea mind uskuma. Usu neid naisi.",
     items: [
       {
-        name: "Mariana",
-        role: "São Paulo, SP",
+        name: "Maarja",
+        role: "Tallinn",
         quote:
-          "Eu tinha medo de mexer na pele em casa. Segui o passo a passo e a diferença na primeira semana já era visível. Hoje sou outra pessoa no espelho.",
+          "Kartsin oma nägu ise kodus töödelda. Aga järgisin samme ja erinevus oli nähtav juba esimesel nädalal. Täna olen peeglisse vaadates hoopis teine inimene.",
       },
       {
-        name: "Cláudia",
-        role: "Belo Horizonte, MG",
+        name: "Tiina",
+        role: "Tartu",
         quote:
-          "Gastava fortuna em clínica e não conseguia manter. Em casa eu aplico tranquila, sem dor e o custo é ridículo perto do resultado.",
+          "Viskasin meeletult raha kliinikutesse ja ei suutnud seda enam endale lubada. Kodus teen seda rahulikult, ilma valuta, ja hind on tulemuste kõrval lihtsalt naeruväärne.",
       },
       {
-        name: "Renata",
-        role: "Curitiba, PR",
+        name: "Sirje",
+        role: "Pärnu",
         quote:
-          "Minhas amigas perguntaram o que eu estava fazendo. As manchinhas clarearam e a textura ficou lisinha. Recomendo sem pensar.",
+          "Sõbrannad küsivad, mida ma oma näoga teinud olen. Laigud on hajunud ja mu nahk on pehme nagu siid. Soovitan kahe käega.",
       },
     ],
-    socialBadge: "REAIS DAS REDES SOCIAIS",
-    socialHeadline: "Depoimentos reais das alunas",
-    socialAlt: "Depoimentos de alunas no Instagram",
+    socialBadge: "TÕELINE TAGASISIDE SOTSIAALMEEDIAST",
+    socialHeadline: "Päris kommentaarid meie kursusel osalejatelt",
+    socialAlt: "Kursusel osalejate tagasiside Instagramis",
   },
 
   finalCta: {
-    badge: "OFERTA POR TEMPO LIMITADO",
-    headline: "Comece hoje. Garantia de 7 dias.",
+    badge: "PIIRATUD AJA PAKKUMINE",
+    headline: "Alusta täna. 14-päevane garantii.",
     guaranteeText:
-      "Se em 7 dias você não amar os resultados, devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia. O risco é todo meu.",
-    bundleHeadline: "O que você leva ao clicar agora",
+      "Kui sa 14 päeva jooksul tulemustesse ei armu, tagastame 100% sinu rahast. Ilma liigsete küsimuste ja bürokraatiata. Kogu risk on minu kanda.",
+    bundleHeadline: "Mida saad, kui klõpsad kohe",
     bundleList: [
-      "Curso completo do Peeling Anti-Idade",
-      "Shot Anti-Idade para Colágeno",
-      "Protocolo Sangue de Dragão",
-      "Guia passo a passo em PDF",
-      "Acesso vitalício à plataforma ES Vídeos",
+      "Täielik kursus „Kodune vananemisvastane koorimine“",
+      "Vananemisvastane šott tugeva kollageenilaengu jaoks",
+      "Taastumisprotokoll „Draakoniveri“",
+      "Samm-sammuline juhend PDF-formaadis",
+      "Eluaegne juurdepääs ES Video platvormile",
     ],
-    regularPriceLabel: "De",
-    regularPrice: "R$ 97,90",
-    offerLabel: "Por apenas",
-    offerPrice: "R$ 47,00",
-    installments: "ou em até 12x no cartão",
-    economy: "Economia de 49%",
-    urgencyText: "Oferta válida apenas hoje",
-    button: "QUERO REATIVAR MEU COLÁGENO AGORA",
-    secureNote: "Compra 100% segura · Pagamento processado pela OrioPay",
-    imageAlt: "Mockup do Peeling Caseiro Anti-Idade",
-    guaranteeImageAlt: "Selo de garantia de 7 dias",
+    regularPriceLabel: "Tavahind",
+    regularPrice: "19,90 €",
+    offerLabel: "Ainult",
+    offerPrice: "9,90 €",
+    installments: "Ühekordne makse",
+    economy: "Säästad 50%",
+    urgencyText: "Pakkumine kehtib ainult täna",
+    button: "SOOVIN TAASTADA OMA KOLLAGEENI KOHE",
+    secureNote: "100% turvaline makse · Töötleb OrioPay",
+    imageAlt: "Koduse vananemisvastase koorimiskursuse näidis",
+    guaranteeImageAlt: "14-päevase garantii märk",
   },
 
   about: {
-    eyebrow: "QUEM ESTÁ POR TRÁS",
-    title: "A Esteticista dos Famosos",
-    name: "Patrícia Elias",
+    eyebrow: "KES SELLE TAGA SEISAB",
+    title: "Tunnustatud näohoolduse ja esteetika ekspert",
+    name: "Kadri Kask",
     paragraphs: [
-      "Patrícia Elias é referência nacional em estética facial e cuidado da pele. Desenvolveu protocolos naturais para manchas, melasma, acne e queda capilar que já ajudaram milhares de mulheres a recuperar a autoestima.",
-      "É criadora da Clínica Patrícia Elias e da loja de dermocosméticos da marca. Comanda o maior canal de saúde e beleza no YouTube em português, com 7,68 milhões de inscritos.",
-      "Sua proposta é simples: resultado real, com carinho e ciência — sem depender de tratamentos caros ou produtos importados.",
+      "Kadri Kask on Eesti tunnustatud ekspert näo esteetika ja nahahoolduse alal. Ta on välja töötanud looduslikud protokollid pigmendilaikude, melasma, akne ja juuste väljalangemise raviks, mis on aidanud juba tuhandetel naistel enesekindlust tagasi võita.",
+      "Ta on isikliku kliiniku ja dermakosmeetika brändi asutaja. Lisaks juhib ta üht Eesti suurimat tervise- ja ilukanalit sotsiaalmeedias, jõudes sadade tuhandete naisteni.",
+      "Tema filosoofia on lihtne: tõelised tulemused rohke hoole ja teaduse abil — ilma et oleksid sõltuvuses ülikallitest protseduuridest või importtoodetest."
     ],
     stats: [
-      { value: "7,68M", label: "Inscritos no YouTube" },
-      { value: "+1.000", label: "Mulheres atendidas" },
-      { value: "Brasil", label: "Referência em pele" },
+      { value: "Sajad tuhanded", label: "Jälgijad sotsiaalmeedias" },
+      { value: "+1 000", label: "Aigatud naist" },
+      { value: "Eesti", label: "Nahahoolduse teerajaja" },
     ],
-    photoAlt: "Patrícia Elias, esteticista referência no Brasil",
+    photoAlt: "Kadri Kask, juhtiv esteetikaekspert Eestis",
   },
 
   faq: {
-    eyebrow: "DÚVIDAS FREQUENTES",
-    headline: "Tudo o que você precisa saber antes de garantir.",
+    eyebrow: "KORDUMA KIPPUVAD KÜSIMUSED",
+    headline: "Kõik, mida pead enne tellimist teadma.",
     items: [
       {
-        q: "O que estou comprando exatamente?",
-        a: "Você está adquirindo o mini-curso digital do Peeling Caseiro Anti-Idade, com acesso à plataforma ES Vídeos. O conteúdo ensina a fórmula, a aplicação correta, o shot anti-idade e o protocolo de segurança.",
+        q: "Mida ma täpsemalt ostan?",
+        a: "Sa ostad digitaalse minikursuse „Kodune vananemisvastane koorimine“ koos juurdepääsuga ES Video platvormile. Sisu õpetab sulle täpset valemit, õiget pealekandmist, vananemisvastase šoti retsepti ja ohutusprotokolli.",
       },
       {
-        q: "O que vem incluso na compra?",
-        a: "Vídeo com a fórmula secreta, guia detalhado em PDF e acesso à plataforma ES Vídeos com cursos e conteúdos complementares.",
+        q: "Mis on hinna sees?",
+        a: "Video salajase valemiga, üksikasjalik PDF-juhend ja juurdepääs ES Video platvormile, kus leidub lisakursuseid ja materjale.",
       },
       {
-        q: "Como vou receber o conteúdo?",
-        a: "Após a aprovação do pagamento você recebe por e-mail o link da plataforma com o vídeo e o guia em PDF. Verifique também a caixa de spam. A entrega costuma sair em poucos minutos.",
+        q: "Kuidas ma sisu kätte saan?",
+        a: "Kohe pärast edukat makset saad meili lingiga platvormile, kus asuvad video ja PDF-juhend. Kontrolli kindlasti ka rämpsposti (Spam) kausta. Kohaletoimetamine võtab tavaliselt vaid mõne minuti.",
       },
       {
-        q: "Em quanto tempo após a compra eu recebo o material?",
-        a: "A entrega é imediata após a aprovação do pagamento — geralmente em minutos.",
+        q: "Kui kaua pärast ostu ma juurdepääsu saan?",
+        a: "Kohaletoimetamine on automaatne ja kohene pärast makse kinnitamist — enamasti vähem kui minutiga.",
       },
       {
-        q: "Quem pode fazer o Peeling Caseiro?",
-        a: "Indicado para mulheres e homens a partir dos 35 anos que querem reativar o colágeno e reduzir rugas, manchas e falta de viço. Não é indicado para quem tem alergia à aspirina, pele extremamente sensível ou feridas abertas. Teste de alergia é obrigatório antes da primeira aplicação.",
+        q: "Kes tohivad seda kodust koorimist teha?",
+        a: "See sobib üle 35-aastastele naistele ja meestele, kes soovivad stimuleerida kollageeni tootmist ning vähendada kortse, laike ja naha tuhmust. Ei soovitata inimestele, kellel on aspiriiniallergia, äärmiselt tundlik nahk või lahtised haavad. Allergia test on enne esimest kasutamist kohustuslik.",
       },
       {
-        q: "Funciona mesmo?",
-        a: "Sim. O princípio ativo (ácido acetilsalicílico) pertence à mesma família dos ácidos usados em clínica para renovação celular: remove a camada de células mortas e estimula colágeno. O resultado é comparável a peelings superficiais a uma fração do custo.",
+        q: "Kas see tõesti toimib?",
+        a: "Jah. Aktiivaine (atsetüülsalitsüülhape) kuulub samasse hapete perekonda, mida kasutatakse kliinikutes rakkude uuendamiseks: see eemaldab surnud naharakkude kihi ja stimuleerib kollageeni. Tulemus on võrreldav pindmise keemilise koorimisega, kuid minimaalse hinna eest.",
       },
       {
-        q: "Como são ministradas as aulas e o conteúdo?",
-        a: "Em vídeo-aulas combinadas com textos informativos, em formato simples e direto ao ponto.",
+        q: "Kuidas on õppetükid esitatud?",
+        a: "Videotundide ja informatiivsete tekstide kombinatsioonina, äärmiselt lihtsalt mõistetavas ja otseses formaadis.",
       },
       {
-        q: "Há garantia de satisfação?",
-        a: "Sim. Você tem 7 dias para testar. Se não ficar satisfeita, basta entrar em contato com o suporte e devolvemos 100% do valor, sem perguntas.",
+        q: "Kas on olemas rahulolugarantii?",
+        a: "Jah. Sul on 14 päeva meetodi testimiseks. Kui sa ei ole rahul, võta lihtsalt ühendust meie klienditoega ja me tagastame 100% summast, ilma ühegi küsimuseta.",
       },
     ],
   },
 
   closing: {
-    eyebrow: "POR POUCO TEMPO",
-    headline: "Sua pele pode estar diferente em 28 dias.",
-    body: "A decisão é simples: continuar gastando com cremes que não funcionam, ou investir uma única vez em um método natural, prático e com garantia incondicional.",
-    cta: "QUERO COMEÇAR AGORA",
-    timerNote: "Oferta termina em",
-    timerLabels: { days: "Dias", hours: "Horas", minutes: "Minutos", seconds: "Segundos" },
+    eyebrow: "PIIRATUD AJA JOOKSUL",
+    headline: "Sinu nahk võib 28 päeva pärast välja näha täiesti teistsugune.",
+    body: "Valik on lihtne: jätka raha raiskamist kreemidele, mis ei toimi, või investeeri ühekordselt looduslikku ja praktilisse meetodisse, millel on tingimusteta garantii.",
+    cta: "SOOVIN KOHE ALUSTADA",
+    timerNote: "Pakkumine aegub",
+    timerLabels: { days: "Päeva", hours: "Tundi", minutes: "Minutit", seconds: "Sekundit" },
   },
 
   footer: {
-    brand: "Patrícia Elias",
-    tagline: "Beleza com ciência e carinho.",
-    rights: "Todos os direitos reservados.",
+    brand: "Kadri Kask",
+    tagline: "Ilu, mis on loodud teaduse ja hoolega.",
+    rights: "Kõik õigused kaitstud.",
     legalLinks: [
-      { label: "Política de Privacidade", href: "#" },
-      { label: "Termos de Uso", href: "#" },
+      { label: "Privaatsuspoliitika", href: "#" },
+      { label: "Kasutustingimused", href: "#" },
     ],
     disclaimer:
-      "Este site não é afiliado a Facebook ou Meta. Resultados podem variar de acordo com cada organismo.",
+      "See sait ei ole seotud Facebooki ega Metaga. Tulemused võivad individuaalselt varieeruda sõltuvalt organismist.",
   },
 
   pixel: {
@@ -330,16 +356,16 @@ export const copy = {
   },
 
   a11y: {
-    skipToContent: "Pular para o conteúdo",
-    faqExpand: "Expandir resposta",
-    faqCollapse: "Recolher resposta",
-    carouselPrev: "Imagem anterior",
-    carouselNext: "Próxima imagem",
+    skipToContent: "Mine sisu juurde",
+    faqExpand: "Laienda vastust",
+    faqCollapse: "Peida vastus",
+    carouselPrev: "Eelmine pilt",
+    carouselNext: "Järgmine pilt",
   },
 
   metadata: {
-    title: "Peeling Caseiro Anti-Idade | Patrícia Elias",
+    title: "Kodune vananemisvastane koorimine | Kadri Kask",
     description:
-      "Aprenda o peeling caseiro com resultado profissional. Pele renovada, firme e iluminada em até 28 dias. Garantia de 7 dias.",
+      "Õpi, kuidas teha kodust koorimist professionaalsete tulemustega. Uuenenud, pingul ja särav nahk kuni 28 päevaga. 14-päevane garantii.",
   },
 };
